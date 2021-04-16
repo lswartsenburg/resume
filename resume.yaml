@@ -7,15 +7,15 @@ basics:
   phone: "(415) 996-9796"
   website: http://lucasswartsenburg.com
   summary: >
-    Experienced Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect, 
-    and Technical Product Manager. Background in developing Mobile and Web applications. Excels at data projects and products 
-    that deliver value to customers.
-  location:
-    address: 1121 euclid avenue
-    postalCode: CA 94708
-    city: Berkeley
-    countryCode: US
-    region: California
+    Experienced and Excited Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect, 
+    and Technical Product Manager. Background in developing Mobile and Web applications. Excels at data projects and developer
+    products.
+  # location:
+  #   address: 1121 euclid avenue
+  #   postalCode: CA 94708
+  #   city: Berkeley
+  #   countryCode: US
+  #   region: California
   profiles:
   - network: Twitter
     username: lswartsenburg
@@ -38,9 +38,10 @@ work:
   website: https://www.rapidapi.com/
   startDate: '2020-12-01'
   highlights:
-  - Build engineering team from the ground up, hiring 2 engineers on the team
+  - Building an engineering team from the ground up
   - Current Architect of the RapidAPI Testing product
   - Guiding the product team on finding the right product strategy
+  - Building developer relations through drift
   location:
     city: San Francisco
     countryCode: US
@@ -54,7 +55,7 @@ work:
   - Wrote 12 integrations pulling data from obscure embedded databases, a telnet server, and using web scrapers
   - Deployed a 1000+ node Kubernetes cluster on AWS
   - Build local caching solution, reducing load on backend with ~95%
-  - Hired 4 Software Engineers, 2 Support Engineers, and the VP of engineering
+  - Helped hire 4 Software Engineers, 2 Support Engineers, and the VP of engineering
   location:
     city: San Francisco
     countryCode: US
@@ -145,9 +146,9 @@ education:
   studyType: Bachelor
   startDate: '2009-06-01'
   endDate: '2012-06-01'
-  summary: |
-    "The bachelor’s programme in Computer Science teaches students to develop and improve computer systems. In view of growing automation, it is not surprising that this new science should be on the rise. This means there is quite a demand for well-trained computer scientists.
-    The programme covers computer programming, steering systems and networks, data bases and translator construction as well as artificial intelligence and multimedia. A solid theoretical foundation is provided in such fields as logic, reasoning and computability. ", UvA website
+  # summary: |
+  #   "The bachelor’s programme in Computer Science teaches students to develop and improve computer systems. In view of growing automation, it is not surprising that this new science should be on the rise. This means there is quite a demand for well-trained computer scientists.
+  #   The programme covers computer programming, steering systems and networks, data bases and translator construction as well as artificial intelligence and multimedia. A solid theoretical foundation is provided in such fields as logic, reasoning and computability. ", UvA website
   location:
     city: Amsterdam
     countryCode: NL
@@ -185,12 +186,12 @@ languages:
   fluency: Beginner
 - language: German
   fluency: Beginner
-references:
-- name: Holger Tamm
-  reference: |
-    I have come to appreciate Lucas as motor for change who challenges the status-quo. As a product manager and engineer, he is continuously striving to improve customer and in-house experiences by designing and building solutions. He does this through close collaboration with all relevant stakeholders (internal and external) as well by collecting data insights. Lucas is able to 
+# references:
+# - name: Holger Tamm
+#   reference: |
+#     I have come to appreciate Lucas as motor for change who challenges the status-quo. As a product manager and engineer, he is continuously striving to improve customer and in-house experiences by designing and building solutions. He does this through close collaboration with all relevant stakeholders (internal and external) as well by collecting data insights. Lucas is able to 
 
-    His product management skills paired with deep engineering expertise enables Lucas to guide teams and implement complex solutions. Lucas is a hardworking, passionate and caring team player, who is able to bring out the best in his team. I have seen him excel by forging strong relationships and joint visions.
+#     His product management skills paired with deep engineering expertise enables Lucas to guide teams and implement complex solutions. Lucas is a hardworking, passionate and caring team player, who is able to bring out the best in his team. I have seen him excel by forging strong relationships and joint visions.
 
-    I would hire Lucas any time, if I would have an opening.
+#     I would hire Lucas any time, if I would have an opening.
 

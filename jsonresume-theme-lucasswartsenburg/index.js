@@ -11,6 +11,7 @@ Handlebars.registerHelper('toLowerCase', require(join(HELPERS, 'toLowerCase.js')
 Handlebars.registerHelper('monthYear', require(join(HELPERS, 'monthYear.js')).default);
 Handlebars.registerHelper('year', require(join(HELPERS, 'year.js')).default);
 Handlebars.registerHelper('dayMonthYear', require(join(HELPERS, 'dayMonthYear.js')).default);
+Handlebars.registerHelper('hasSummaryOrHighlights', require(join(HELPERS, 'hasSummaryOrHighlights.js')).default);
 
 function render(resume) {
   const css = readFileSync(`${__dirname}/style.css`, 'utf-8');

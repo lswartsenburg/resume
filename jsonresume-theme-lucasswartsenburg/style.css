@@ -555,7 +555,7 @@ section .location {
 }
 
 .level.master .bar::after,
-.level.native.speaker .bar::after {
+.level.native.speaker .bar::after,  .level.excellent .bar::after {
   background: #59c596;
   width: 10em;
 }
@@ -784,4 +784,8 @@ section .location {
   .fa-map-marker-alt:before {
     padding-left: 0.1em;
   }
+}
+
+#languages .display {
+  width: 190px
 }

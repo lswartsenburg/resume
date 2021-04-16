@@ -1,76 +1,196 @@
 ---
 basics:
-  name: John Doe
-  label: Programmer
+  name: Lucas Swartsenburg
+  label: Software Engineer / Product Manager / Enterpreneur
   picture: ''
-  email: john@gmail.com
-  phone: "(912) 555-4321"
-  website: http://johndoe.com
-  summary: A summary of John Doe...
+  email: lucasswartsenburg@gmail.com
+  phone: "(415) 996-9796"
+  website: http://lucasswartsenburg.com
+  summary: >
+    Experienced Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect, 
+    and Technical Product Manager. Background in developing Mobile and Web applications. Excels at data projects and products 
+    that deliver value to customers.
   location:
-    address: 2712 Broadway St
-    postalCode: CA 94115
-    city: San Francisco
+    address: 1121 euclid avenue
+    postalCode: CA 94708
+    city: Berkeley
     countryCode: US
     region: California
   profiles:
   - network: Twitter
-    username: john
-    url: http://twitter.com/john
+    username: lswartsenburg
+    url: https://twitter.com/lswartsenburg
+  - network: stack-overflow
+    username: lswartsenburg
+    url: https://stackoverflow.com/users/1319331/lswartsenburg?tab=profile
+  - network: github
+    username: lswartsenburg
+    url: https://github.com/lswartsenburg
+  - network: linkedin
+    username: lucasswartsenburg
+    url: https://www.linkedin.com/in/lucasswartsenburg/
+  # - network: dev
+  #   username: lswartsenburg
+  #   url: https://dev.to/lswartsenburg
 work:
-- company: Company
-  position: President
-  website: http://company.com
-  startDate: '2013-01-01'
-  endDate: '2014-01-01'
-  summary: Description...
+- company: RapidAPI
+  position: Engineering Team/Tech Lead 
+  website: https://www.rapidapi.com/
+  startDate: '2020-12-01'
   highlights:
-  - Started the company
+  - Build engineering team from the ground up, hiring 2 engineers on the team
+  - Current Architect of the RapidAPI Testing product
+  - Guiding the product team on finding the right product strategy
+  location:
+    city: San Francisco
+    countryCode: US
+- company: NexHealth
+  position: Software Engineer
+  website: https://www.nexhealth.com/
+  startDate: '2020-01-01'
+  endDate: '2020-12-01'
+  highlights:
+  - Wrote integration framework supporting 30+ integrations written in Python
+  - Wrote 12 integrations pulling data from obscure embedded databases, a telnet server, and using web scrapers
+  - Deployed a 1000+ node Kubernetes cluster on AWS
+  - Build local caching solution, reducing load on backend with ~95%
+  - Hired 4 Software Engineers, 2 Support Engineers, and the VP of engineering
+  location:
+    city: San Francisco
+    countryCode: US
+- company: Itso / Software engineer / Product Manager
+  position: Co-founder
+  website: https://www.itso.io/
+  startDate: '2019-05-01'
+  endDate: '2020-01-01'
+  highlights:
+  - Organized over 100 product interviews to find and validate interesting problems
+  - Developed "Meetics" from idea, to research and data analysis, to launch
+  - Interviewed with Y-Combinator
+  location:
+    city: Austin
+    countryCode: US
+- company: Optimizely
+  position: Product Manager
+  website: https://www.optimizely.com/
+  startDate: '2015-02-01'
+  endDate: '2019-05-01'
+  highlights:
+  - Worked with key stakeholders to launch a new way of pricing and packing, resulting in a 92% new ARR increase in the first quarter
+  - Re-launched the Optimizely developer website. The website is the highest rated resource available to Optimizely customers
+  - Launched the public REST API, adopted by 62% of paying customers, and a JS API, adopted by 86% of paying customers
+  - Implemented product tracking which is used to track all product OKRs
+  - Launched GDPR SAR automation, reducing the load on our support team with 2 FTEs
+  - Grew our technology partnerships from 12 to 73 within a year
+  location:
+    city: San Francisco
+    countryCode: US
+- company: Optimizely
+  position: Solution Architect
+  website: https://www.optimizely.com/
+  startDate: '2013-03-01'
+  endDate: '2015-02-01'
+  highlights:
+  - Helped grow the EMEA headquarter from 3 to 70 employees
+  - Build relationships with 60 customers and developedthem from presales to growth opportunity
+  - Created integrations with digital products which drove the creation of a “technology partner team”
+  - Trained new employees
+  - Started the development of the Optimizelycertification
+  location:
+    city: Amsterdam
+    countryCode: NL
+- company: Zetacom
+  position: Software Engineer
+  website: https://www.zetacom.nl/
+  startDate: '2012-02-01'
+  endDate: '2013-03-01'
+  highlights:
+  - Developed an Android app and Python backend to access all surveillance video streams in hospitals
+  location:
+    city: Zoetermeer
+    countryCode: NL
+- company: Black Stork
+  position: Co-founder / Software engineer
+  startDate: '2012-02-01'
+  endDate: '2013-03-01'
+  highlights:
+  - Secured funding to develop an iOS and Android app to run Dutch auctions
+  - Developed and launched a Python backend, Android app, and iOS app
+  location:
+    city: Amsterdam
+    countryCode: NL
+- company: Bloomreach
+  position: Junior Web Developer
+  startDate: '2010-02-01'
+  endDate: '2012-02-01'
+  highlights:
+  - Developed and supported a Java-based CMS for enterprise customers
+  location:
+    city: Amsterdam
+    countryCode: NL
 volunteer:
-- organization: Organization
-  position: Volunteer
-  website: http://organization.com/
-  startDate: '2012-01-01'
-  endDate: '2013-01-01'
-  summary: Description...
-  highlights:
-  - Awarded 'Volunteer of the Month'
+- organization: Jeugdschaatsen Zaanstreek
+  position: Iceskating teacher and webdeveloper
+  website: https://jeugdschaatsenzaanstreek.nl/
+  startDate: '2009-06-01'
+  endDate: '2011-12-01'
+- organization: Kauffman Foundation
+  position: Startupweekend mentor
+  website: https://www.kauffman.org/
+  startDate: '2013-07-01'
+  endDate: '2013-07-03'
 education:
-- institution: University
-  area: Software Development
+- institution: University of Amsterdam
+  area: Computer Science
   studyType: Bachelor
-  startDate: '2011-01-01'
-  endDate: '2013-01-01'
-  gpa: '4.0'
-  courses:
-  - DB1101 - Basic SQL
-awards:
-- title: Award
-  date: '2014-11-01'
-  awarder: Company
-  summary: There is no spoon.
-publications:
-- name: Publication
-  publisher: Company
-  releaseDate: '2014-10-01'
-  website: http://publication.com
-  summary: Description...
+  startDate: '2009-06-01'
+  endDate: '2012-06-01'
+  summary: |
+    "The bachelor’s programme in Computer Science teaches students to develop and improve computer systems. In view of growing automation, it is not surprising that this new science should be on the rise. This means there is quite a demand for well-trained computer scientists.
+    The programme covers computer programming, steering systems and networks, data bases and translator construction as well as artificial intelligence and multimedia. A solid theoretical foundation is provided in such fields as logic, reasoning and computability. ", UvA website
+  location:
+    city: Amsterdam
+    countryCode: NL
 skills:
-- name: Web Development
+- name: Software Engineering
   level: Master
   keywords:
-  - HTML
-  - CSS
-  - Javascript
+  - Node
+  - Python
+  - Java
+  - Vue / React / JS
+  - SQL & NoSQL databases
+  - Devops
+  - Docker / Kubernetes
+- name: Product Management
+  level: Master
+  keywords:
+  - Technical Writing
+  - Data Analysis
+  - Customer Interviews
+  - Stakeholder management
+  - Product Launch
+- name: Leadership
+  level: intermediate
+  keywords:
+  - Onboarding
+  - Hiring
+  - Strategy
 languages:
 - language: English
+  fluency: Excellent
+- language: Dutch
   fluency: Native speaker
-interests:
-- name: Wildlife
-  keywords:
-  - Ferrets
-  - Unicorns
+- language: French
+  fluency: Beginner
+- language: German
+  fluency: Beginner
 references:
 - name: Holger Tamm
-  reference: Reference...
+  reference: |
+    I have come to appreciate Lucas as motor for change who challenges the status-quo. As a product manager and engineer, he is continuously striving to improve customer and in-house experiences by designing and building solutions. He does this through close collaboration with all relevant stakeholders (internal and external) as well by collecting data insights. Lucas is able to 
+
+    His product management skills paired with deep engineering expertise enables Lucas to guide teams and implement complex solutions. Lucas is a hardworking, passionate and caring team player, who is able to bring out the best in his team. I have seen him excel by forging strong relationships and joint visions.
+
+    I would hire Lucas any time, if I would have an opening.
 

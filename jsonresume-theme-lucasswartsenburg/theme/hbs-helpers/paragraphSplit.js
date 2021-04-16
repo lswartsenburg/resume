@@ -1,4 +1,11 @@
-const { SafeString } = require('handlebars');
+// Build out our basic SafeString type
+function SafeString(string) {
+  this.string = string;
+}
+
+SafeString.prototype.toString = SafeString.prototype.toHTML = function() {
+  return '' + this.string;
+};
 
 const paragraphSplit = (text) => {
   const expr = /\r\n|\r|\n/g;
@@ -7,4 +14,6 @@ const paragraphSplit = (text) => {
   return new SafeString(output);
 };
 
-module.exports = { paragraphSplit };
+export default paragraphSplit;
+
+

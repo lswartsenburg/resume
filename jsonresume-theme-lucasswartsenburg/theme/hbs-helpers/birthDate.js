@@ -1,5 +1,13 @@
 const moment = require('moment');
-const { SafeString } = require('handlebars');
+
+// Build out our basic SafeString type
+function SafeString(string) {
+  this.string = string;
+}
+
+SafeString.prototype.toString = SafeString.prototype.toHTML = function() {
+  return '' + this.string;
+};
 
 const birthDate = (birth) => {
   const out = [];
@@ -21,4 +29,4 @@ const birthDate = (birth) => {
   return new SafeString(out.join(''));
 };
 
-module.exports = { birthDate };
+export default birthDate;

@@ -1,4 +1,5 @@
 var path = require("path");
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   mode: "production",
@@ -10,6 +11,16 @@ module.exports = {
   },
   module: {
     rules: [
+      { 
+        test: /\.hbs$/,
+        use: {
+          loader: "handlebars-loader",
+          options: {
+            helperDirs: [__dirname + '/jsonresume-theme-lucasswartsenburg/theme/hbs-helpers'],
+            partialDirs: [__dirname + '/jsonresume-theme-lucasswartsenburg/theme/partials'],
+          }
+        }
+      },
       { 
         test: /\.js$/, 
         exclude: /node_modules|jsonresume-lib/, 
@@ -24,11 +35,20 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(svg|eot|woff|woff2|ttf)$/,
+        use: ['file-loader']
+      },
+      {
+        test: /\.ya?ml$/,
+        type: 'json', // Required by Webpack v4
+        use: 'yaml-loader'
       }
     ]
   },
   externals: {
     react: "react"
   },
-  target: 'node'
+  target: 'node',
 };

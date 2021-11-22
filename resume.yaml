@@ -129,16 +129,16 @@ work:
     city: Amsterdam
     countryCode: NL
 volunteer:
-- organization: Jeugdschaatsen Zaanstreek
-  position: Iceskating teacher and webdeveloper
-  website: https://jeugdschaatsenzaanstreek.nl/
-  startDate: '2009-06-01'
-  endDate: '2011-12-01'
 - organization: Kauffman Foundation
   position: Startupweekend mentor
   website: https://www.kauffman.org/
   startDate: '2013-07-01'
   endDate: '2013-07-03'
+- organization: Jeugdschaatsen Zaanstreek
+  position: Iceskating teacher and webdeveloper
+  website: https://jeugdschaatsenzaanstreek.nl/
+  startDate: '2009-06-01'
+  endDate: '2011-12-01'
 education:
 - institution: University of Amsterdam
   area: Computer Science

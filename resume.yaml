@@ -7,9 +7,8 @@ basics:
   phone: "(415) 996-9796"
   website: http://lucasswartsenburg.com
   summary: >
-    Experienced Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect, 
-    and Technical Product Manager. Background in developing Mobile and Web applications. Excels at data projects and products 
-    that deliver value to customers.
+    Experienced Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect,
+    and Technical Product Manager. Excels at data projects and products that deliver value to customers. Loves the confluence of code, product, and people.
   location:
     address: 1121 euclid avenue
     postalCode: CA 94708
@@ -33,10 +32,22 @@ basics:
   #   username: lswartsenburg
   #   url: https://dev.to/lswartsenburg
 work:
+- company: Meta
+  position: Software Engineer
+  website: https://www.meta.com/
+  startDate: '2021-09-01'
+  highlights:
+  - Build release infrastructure, reducing release stabalization from 5 to 2 weeks
+  - Internally recruited a 9 person team
+  - Mentored 7 young engineers
+  location:
+    city: New York
+    countryCode: US
 - company: RapidAPI
-  position: Engineering Team/Tech Lead 
+  position: Engineering Team/Tech Lead
   website: https://www.rapidapi.com/
   startDate: '2020-12-01'
+  endDate: '2021-09-01'
   highlights:
   - Build engineering team from the ground up, hiring 2 engineers on the team
   - Current Architect of the RapidAPI Testing product
@@ -155,12 +166,12 @@ skills:
 - name: Software Engineering
   level: Master
   keywords:
-  - Node
   - Python
   - Java
+  - Node
   - Vue / React / JS
   - SQL & NoSQL databases
-  - Devops
+  - Devops / Infra
   - Docker / Kubernetes
 - name: Product Management
   level: Master
@@ -188,9 +199,8 @@ languages:
 references:
 - name: Holger Tamm
   reference: |
-    I have come to appreciate Lucas as motor for change who challenges the status-quo. As a product manager and engineer, he is continuously striving to improve customer and in-house experiences by designing and building solutions. He does this through close collaboration with all relevant stakeholders (internal and external) as well by collecting data insights. Lucas is able to 
+    I have come to appreciate Lucas as motor for change who challenges the status-quo. As a product manager and engineer, he is continuously striving to improve customer and in-house experiences by designing and building solutions. He does this through close collaboration with all relevant stakeholders (internal and external) as well by collecting data insights. Lucas is able to
 
     His product management skills paired with deep engineering expertise enables Lucas to guide teams and implement complex solutions. Lucas is a hardworking, passionate and caring team player, who is able to bring out the best in his team. I have seen him excel by forging strong relationships and joint visions.
 
     I would hire Lucas any time, if I would have an opening.
-

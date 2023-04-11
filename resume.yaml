@@ -173,6 +173,7 @@ skills:
   - SQL & NoSQL databases
   - Devops / Infra
   - Docker / Kubernetes
+  - CI / CD
 - name: Product Management
   level: Master
   keywords:

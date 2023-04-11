@@ -7,14 +7,14 @@ basics:
   phone: "(415) 996-9796"
   website: http://lucasswartsenburg.com
   summary: >
-    Experienced Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect,
+    Experienced coding language agnostic Software professional with a wide variety in previous roles as a Software Engineer, Solution Architect,
     and Technical Product Manager. Excels at data projects and products that deliver value to customers. Loves the confluence of code, product, and people.
   location:
-    address: 1121 euclid avenue
-    postalCode: CA 94708
-    city: Berkeley
+    address: 1520 Bedford Ave Apt. 4a
+    postalCode: NY 11216
+    city: Brooklyn
     countryCode: US
-    region: California
+    region: New York
   profiles:
   - network: Twitter
     username: lswartsenburg

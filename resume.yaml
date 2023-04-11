@@ -37,8 +37,8 @@ work:
   website: https://www.meta.com/
   startDate: '2021-09-01'
   highlights:
-  - Build release infrastructure, reducing release stabalization from 5 to 2 weeks
-  - Internally recruited a 9 person team
+  - Build release infrastructure, reducing release stabilization from 5 to 2 weeks
+  - Internally recruited a 9-person team
   - Mentored 7 young engineers
   location:
     city: New York
@@ -51,7 +51,7 @@ work:
   highlights:
   - Build engineering team from the ground up, hiring 2 engineers on the team
   - Current Architect of the RapidAPI Testing product
-  - Guiding the product team on finding the right product strategy
+  - Guiding the product team in finding the right product strategy
   location:
     city: San Francisco
     countryCode: US
@@ -64,7 +64,7 @@ work:
   - Wrote integration framework supporting 30+ integrations written in Python
   - Wrote 12 integrations pulling data from obscure embedded databases, a telnet server, and using web scrapers
   - Deployed a 1000+ node Kubernetes cluster on AWS
-  - Build local caching solution, reducing load on backend with ~95%
+  - Build local caching solution, reducing the load on the backend with ~95%
   - Hired 4 Software Engineers, 2 Support Engineers, and the VP of engineering
   location:
     city: San Francisco
@@ -88,7 +88,7 @@ work:
   endDate: '2019-05-01'
   highlights:
   - Worked with key stakeholders to launch a new way of pricing and packing, resulting in a 92% new ARR increase in the first quarter
-  - Re-launched the Optimizely developer website. The website is the highest rated resource available to Optimizely customers
+  - Re-launched the Optimizely developer website. The website is the highest-rated resource available to Optimizely customers
   - Launched the public REST API, adopted by 62% of paying customers, and a JS API, adopted by 86% of paying customers
   - Implemented product tracking which is used to track all product OKRs
   - Launched GDPR SAR automation, reducing the load on our support team with 2 FTEs
@@ -102,8 +102,8 @@ work:
   startDate: '2013-03-01'
   endDate: '2015-02-01'
   highlights:
-  - Helped grow the EMEA headquarter from 3 to 70 employees
-  - Build relationships with 60 customers and developedthem from presales to growth opportunity
+  - Helped grow the EMEA headquarters from 3 to 70 employees
+  - Build relationships with 60 customers and developed them from presales to growth opportunity
   - Created integrations with digital products which drove the creation of a “technology partner team”
   - Trained new employees
   - Started the development of the Optimizely certification
@@ -146,12 +146,12 @@ volunteer:
   startDate: '2013-07-01'
   endDate: '2013-07-03'
 - organization: Jeugdschaatsen Zaanstreek
-  position: Iceskating teacher and webdeveloper
+  position: Ices Skating teacher and web developer
   website: https://jeugdschaatsenzaanstreek.nl/
   startDate: '2009-06-01'
   endDate: '2011-12-01'
 education:
-- institution: University of Amsterdam
+- institution: The University of Amsterdam
   area: Computer Science
   studyType: Bachelor
   startDate: '2009-06-01'
